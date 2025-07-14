@@ -6,7 +6,7 @@ let currentSort = 'expensive';
 
 export async function loadProducts() {
   try {
-    const res = await fetch('./assets/data/products.json');
+    const res = await fetch('/assets/data/products.json');
     allProducts = await res.json();
 
     initFilterButtons();

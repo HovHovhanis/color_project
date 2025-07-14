@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "./assets/images/product1.png",
+    "image": "/assets/images/product1.png",
     "name": "Белая краска для стен",
     "price": 1290,
     "addToCartText": "+",
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "image": "./assets/images/product2.png",
+    "image": "/assets/images/product2.png",
     "name": "Серо-голубая эмаль",
     "price": 1490,
     "addToCartText": "+",
@@ -29,7 +29,7 @@
   },
   {
     "id": 3,
-    "image": "./assets/images/product3.png",
+    "image": "/assets/images/product3.png",
     "name": "Матовое покрытие 'Молоко'",
     "price": 1190,
     "addToCartText": "+",
@@ -43,7 +43,7 @@
   },
   {
     "id": 4,
-    "image": "./assets/images/product4.png",
+    "image": "/assets/images/product4.png",
     "name": "Светло-бежевый интерьер",
     "price": 1390,
     "addToCartText": "+",
@@ -57,7 +57,7 @@
   },
   {
     "id": 5,
-    "image": "./assets/images/product5.png",
+    "image": "/assets/images/product5.png",
     "name": "Красная матовая краска",
     "price": 1350,
     "addToCartText": "+",
@@ -71,7 +71,7 @@
   },
   {
     "id": 6,
-    "image": "./assets/images/product6.png",
+    "image": "/assets/images/product6.png",
     "name": "Зеленая глянцевая эмаль",
     "price": 1550,
     "addToCartText": "+",
@@ -85,7 +85,7 @@
   },
   {
     "id": 7,
-    "image": "./assets/images/product7.png",
+    "image": "/assets/images/product7.png",
     "name": "Желтая краска с эффектом шелка",
     "price": 1250,
     "addToCartText": "+",
@@ -99,7 +99,7 @@
   },
   {
     "id": 8,
-    "image": "./assets/images/product8.png",
+    "image": "/assets/images/product8.png",
     "name": "Черная матовая эмаль",
     "price": 1600,
     "addToCartText": "+",
@@ -113,7 +113,7 @@
   },
   {
     "id": 9,
-    "image": "./assets/images/product9.png",
+    "image": "/assets/images/product9.png",
     "name": "Синяя эмаль с блеском",
     "price": 1420,
     "addToCartText": "+",
@@ -127,7 +127,7 @@
   },
   {
     "id": 10,
-    "image": "./assets/images/product10.png",
+    "image": "/assets/images/product10.png",
     "name": "Белая фасадная краска",
     "price": 1300,
     "addToCartText": "+",
@@ -141,7 +141,7 @@
   },
   {
     "id": 11,
-    "image": "./assets/images/product11.png",
+    "image": "/assets/images/product11.png",
     "name": "Коричневая интерьерная краска",
     "price": 1250,
     "addToCartText": "+",
@@ -155,7 +155,7 @@
   },
   {
     "id": 12,
-    "image": "./assets/images/product12.png",
+    "image": "/assets/images/product12.png",
     "name": "Светло-зеленая эмаль",
     "price": 1450,
     "addToCartText": "+",
@@ -169,7 +169,7 @@
   },
   {
     "id": 13,
-    "image": "./assets/images/product13.png",
+    "image": "/assets/images/product13.png",
     "name": "Лавандовая краска",
     "price": 1380,
     "addToCartText": "+",
@@ -183,7 +183,7 @@
   },
   {
     "id": 14,
-    "image": "./assets/images/product2.png",
+    "image": "/assets/images/product2.png",
     "name": "Оранжевая глянцевая эмаль",
     "price": 1500,
     "addToCartText": "+",
@@ -197,7 +197,7 @@
   },
   {
     "id": 15,
-    "image": "./assets/images/product7.png",
+    "image": "/assets/images/product7.png",
     "name": "Серая матовая краска",
     "price": 1320,
     "addToCartText": "+",
@@ -211,7 +211,7 @@
   },
   {
     "id": 16,
-    "image": "./assets/images/product3.png",
+    "image": "/assets/images/product3.png",
     "name": "Бирюзовая эмаль",
     "price": 1400,
     "addToCartText": "+",
@@ -225,7 +225,7 @@
   },
   {
     "id": 17,
-    "image": "./assets/images/product5.png",
+    "image": "/assets/images/product5.png",
     "name": "Бежевая интерьерная краска",
     "price": 1280,
     "addToCartText": "+",
@@ -239,7 +239,7 @@
   },
   {
     "id": 18,
-    "image": "./assets/images/product4.png",
+    "image": "/assets/images/product4.png",
     "name": "Красно-коричневая эмаль",
     "price": 1480,
     "addToCartText": "+",
@@ -253,7 +253,7 @@
   },
   {
     "id": 19,
-    "image": "./assets/images/product13.png",
+    "image": "/assets/images/product13.png",
     "name": "Фиолетовая матовая краска",
     "price": 1350,
     "addToCartText": "+",
@@ -267,7 +267,7 @@
   },
   {
     "id": 20,
-    "image": "./assets/images/product10.png",
+    "image": "/assets/images/product10.png",
     "name": "Белая краска с текстурой",
     "price": 1300,
     "addToCartText": "+",
@@ -281,7 +281,7 @@
   },
   {
     "id": 21,
-    "image": "./assets/images/product9.png",
+    "image": "/assets/images/product9.png",
     "name": "Черная глянцевая эмаль",
     "price": 1600,
     "addToCartText": "+",
@@ -295,7 +295,7 @@
   },
   {
     "id": 22,
-    "image": "./assets/images/product8.png",
+    "image": "/assets/images/product8.png",
     "name": "Светло-голубая краска",
     "price": 1270,
     "addToCartText": "+",
@@ -309,7 +309,7 @@
   },
   {
     "id": 23,
-    "image": "./assets/images/product5.png",
+    "image": "/assets/images/product5.png",
     "name": "Коричневая матовая краска",
     "price": 1340,
     "addToCartText": "+",
@@ -323,7 +323,7 @@
   },
   {
     "id": 24,
-    "image": "./assets/images/product2.png",
+    "image": "/assets/images/product2.png",
     "name": "Желтая глянцевая эмаль",
     "price": 1410,
     "addToCartText": "+",
