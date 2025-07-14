@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "scss": "sass src/assets/scss/main.scss src/assets/scss/main.css --watch"
-  },
+  "fix-permissions": "chmod +x node_modules/.bin/vite",
+  "build": "npm run fix-permissions && vite build",
+  "dev": "vite",
+  "preview": "vite preview",
+  "scss": "sass src/assets/scss/main.scss src/assets/scss/main.css --watch"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
