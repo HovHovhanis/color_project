@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Каталог</title>
+  <link rel="stylesheet" href="./assets/scss/main.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav" id="nav">
+        <button class="nav__burger-menu" id="burger" aria-label="Меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav__left">
+          <a href="#" class="nav__logo">
+            <img src="./assets/images/logo.svg" alt="Logo" />
+          </a>
+
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Продукты</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Цвета</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Вдохновение</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Советы</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Найти магазин</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__right">
+          <div class="nav__phone-block">
+            <a href="tel:+74952217769" class="nav__phone-link">+7 (495) 221-77-69</a>
+            <p class="nav__phone-order">Заказать звонок</p>
+          </div>
+          <div class="user-actions">
+            <button class="user-actions__search" aria-label="Поиск">
+              <img src="./assets/icon/search.svg" alt="search icon" />
+            </button>
+            <button class="user-actions__account" aria-label="Профиль">
+              <img src="./assets/icon/profile.svg" alt="profile icon" />
+            </button>
+            <button class="user-actions__favorites" aria-label="Избранное">
+              <img src="./assets/icon/heart.svg" alt="heart icon" />
+            </button>
+            <button class="user-actions__cart" aria-label="Корзина">0</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Cart Sidebar -->
+  <div class="cart-sidebar hidden" id="cartSidebar" aria-hidden="true" role="dialog" aria-label="Корзина товаров">
+    <div class="cart-sidebar__content">
+      <div class="cart-sidebar__header">
+        <h2 class="cart-sidebar__title">Корзина</h2>
+        <button class="cart-sidebar__close" aria-label="Закрыть корзину">&times;</button>
+      </div>
+
+      <div class="cart-sidebar__toolbar">
+        <p class="cart-sidebar__count">4 товара</p>
+        <button class="cart-sidebar__clear">Очистить</button>
+      </div>
+
+      <div class="cart-sidebar__items">
+        <!-- товары добавляются сюда динамически -->
+      </div>
+
+      <div class="cart-sidebar__footer">
+        <p class="cart-sidebar__total">Итого: 0 ₽</p>
+        <button class="cart-sidebar__checkout">Оформить заказ</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="main">
+    <section class="hero">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide hero__slide" style="background-image: url('./assets/images/hero.webp');">
+            <div class="hero__overlay">
+              <div class="container">
+                <div class="hero__breadcrumbs">
+                  <a href="#">ГЛАВНАЯ</a>
+                  <span class="hero__breadcrumbs__dot">•</span>
+                  <a href="#">ПРОДУКТЫ</a>
+                  <span class="hero__breadcrumbs__dot">•</span>
+                  <a href="#">КРАСКИ</a>
+                </div>
+                <div class="hero__content">
+                  <h1>Краски</h1>
+                  <p>Идеально подходят для стен и других поверхностей. Найди свой идеальный цвет!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide hero__slide" style="background-image: url('./assets/images/hero.webp');">
+            <div class="hero__overlay">
+              <div class="container">
+                <div class="hero__breadcrumbs">
+                  <a href="#">ГЛАВНАЯ</a>
+                  <span class="hero__breadcrumbs__dot">•</span>
+                  <a href="#">ПРОДУКТЫ</a>
+                  <span class="hero__breadcrumbs__dot">•</span>
+                  <a href="#">КРАСКИ</a>
+                </div>
+                <div class="hero__content">
+                  <h1>Цвет твоей мечты</h1>
+                  <p>Найди вдохновение и раскрась свой интерьер по-своему.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide hero__slide" style="background-image: url('./assets/images/hero.webp');">
+            <div class="hero__overlay">
+              <div class="container">
+                <div class="hero__breadcrumbs">
+                  <a href="#">ГЛАВНАЯ</a>
+                  <span class="hero__breadcrumbs__dot">•</span>
+                  <a href="#">ПРОДУКТЫ</a>
+                  <span class="hero__breadcrumbs__dot">•</span>
+                  <a href="#">КРАСКИ</a>
+                </div>
+
+                <div class="hero__content">
+                  <h1>Цвет твоей мечты</h1>
+                  <p>Найди вдохновение и раскрась свой интерьер по-своему.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide hero__slide" style="background-image: url('./assets/images/hero.webp');">
+            <div class="hero__overlay">
+              <div class="container">
+                <div class="hero__breadcrumbs">
+                  <a href="#">ГЛАВНАЯ</a>
+                  <span class="hero__breadcrumbs__dot">•</span>
+                  <a href="#">ПРОДУКТЫ</a>
+                  <span class="hero__breadcrumbs__dot">•</span>
+                  <a href="#">КРАСКИ</a>
+                </div>
+                <div class="hero__content">
+                  <h1>Цвет твоей мечты</h1>
+                  <p>Найди вдохновение и раскрась свой интерьер по-своему.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Стрелки и точки -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination-block">
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="container">
+        <div class="products__box">
+
+          <aside class="products__filter">
+            <button class="products__filter-btn active" data-filter="new">
+              <span class="products__filter-circle"></span> НОВИНКИ
+            </button>
+            <button class="products__filter-btn" data-filter="inStock">
+              <span class="products__filter-circle"></span> ЕСТЬ В НАЛИЧИИ
+            </button>
+            <button class="products__filter-btn" data-filter="contract">
+              <span class="products__filter-circle"></span> КОНТРАКТНЫЕ
+            </button>
+            <button class="products__filter-btn" data-filter="exclusive">
+              <span class="products__filter-circle"></span> ЭКСКЛЮЗИВНЫЕ
+            </button>
+            <button class="products__filter-btn" data-filter="sale">
+              <span class="products__filter-circle"></span> РАСПРОДАЖА
+            </button>
+          </aside>
+
+          <div class="products__content">
+            <div class="products__topbar">
+              <button class="products__flitder-btn__mobile">Фильтры</button>
+              <p class="products__count">412 товаров</p>
+              <div class="custom-select">
+                <div class="custom-select__trigger">
+                  <span>Сначала дорогие</span>
+                  <img src="./assets/icon/arrow-down.svg" alt="arrow-down">
+                </div>
+                <div class="custom-select__options">
+                  <div class="custom-select__option active" data-value="expensive">Сначала дорогие</div>
+                  <div class="custom-select__option" data-value="cheap">Сначала недорогие</div>
+                  <div class="custom-select__option" data-value="popular">Сначала популярные</div>
+                  <div class="custom-select__option" data-value="newest">Сначала новые</div>
+                </div>
+              </div>
+            </div>
+            <div class="products__cards"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer style="background-color: #000000; height: 200px;"></footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+@import '../../components/header/header.scss';
+@import '../../components/hero/hero.scss';
+@import "../../components/products/products.scss";
+@import '../../components/cart/cart.scss';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/inter/Inter-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/inter/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/inter/Inter-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+html, body {
+  height: 100%;
+  line-height: 1;
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, main, menu, nav, section, summary {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font: inherit;
+  transition: .2s ease-in;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  transition: .2s ease-in;
+}
+
+.container {
+  max-width: 1410px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
